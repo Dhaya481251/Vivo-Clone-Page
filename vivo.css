@@ -1,0 +1,980 @@
+body{
+    margin:0px;
+}
+/* To design the header */
+.header{
+    background-image: url(HeaderBackgroundImage.jpg);/* Background image of the header*/
+    background-repeat: no-repeat;
+    background-size: 100% 759px;
+    width: 1759px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+}
+/* vivo logo */
+svg{
+    cursor: pointer;
+    margin-left: 68px;
+    margin-top: 30px;
+    transform: scale(1.3);
+    width: 95px;
+    height: 23px;
+}
+/* vivo logo hover effect */
+path:hover{
+    fill: #415fff;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+/* Header list */
+/* Header list elements position*/
+.header-list-elements{
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+/* Header list element arrangement */
+.header-list-arrangement{
+    margin-left: 36px;
+    margin-top: -60px;
+}
+.header-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+/* Header list links decoration */
+a{
+    text-decoration: none;
+}
+/* Header list elements and its hover effect */
+.Home{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 120px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight:bold;
+}
+.Home:hover{
+    color:#415fff;
+}
+.Products{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 45px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight:bold;
+}
+.Products:hover{
+    color: #415fff;
+}
+.E-Store{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 45px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: bold;
+}
+.E-Store:hover{
+    color:#415fff;
+}
+.vivo-Exclusive-Store{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 45px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: bold;
+}
+.vivo-Exclusive-Store:hover{
+    color:#415fff;
+}
+.Community{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 45px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: bold;
+}
+.Community:hover{
+    color:#415fff;
+}
+.Support{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 45px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: bold;
+}
+.Support:hover{
+    color:#415fff;
+}
+.Funtouch-OS{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 45px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: bold;
+}
+.Funtouch-OS:hover{
+    color:#415fff;
+}
+.Explore-vivo{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 45px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: bold;
+}
+.Explore-vivo:hover{
+    color:#415fff;
+}
+.iQOO{
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 45px;
+    color: white;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: bold;
+}
+.iQOO:hover{
+    color:#415fff;
+}
+/* message icon svg and its hover*/
+.message{
+    margin-top: 13px;
+    margin-left: 150px;
+}
+.message-icon:hover{
+    fill: #415fff;
+}
+/* user icon and its hover */
+.fa-regular{
+    color: white;
+    font-size: 28px;
+    margin-top: 13px;
+    position:absolute;
+    margin-left:-51px;
+}
+.fa-regular:hover{
+    color: #415fff;
+    cursor: pointer;
+}
+/* svg image text in the header background image */
+.V30e-text{
+    width: 208px;
+    height: 50px;
+    margin-top: 165px;
+    margin-left: 60px;
+}
+/* Text in the header background image */
+.delight{
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 52px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+}
+/* a text and its hover effect */
+.launch-text{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 54px;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+.launch-text:hover{
+    color: blue; 
+}
+/* a icon and its hover effect */
+.oval-arrow{
+    border:3px solid white;
+    margin-left: 320px;
+    width: 38px;
+    height: 27px;
+    position: absolute;
+    margin-top: 54px;
+    border-radius: 43%;
+}
+#chevron-right{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: white;
+}
+#circle{
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 10px;
+    font-size: 7px;
+    display: none;
+}
+.oval-arrow:hover{
+    border-color: blue;
+}
+.oval-arrow:hover #chevron-right{
+    display: none;
+}
+.oval-arrow:hover #circle{
+    color: blue;
+    display:inline;
+}
+.Launch{
+    transition-duration: 1s;
+}
+.Launch:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+/* Main body */
+/* Section 1 */
+.section1{
+    width: 111.1%;
+    height: 754px;  
+    background-color: #f4edff; 
+}
+/* subsection of the section 1 */
+.section1-subsection{
+    width: 1440px;
+    height: 640px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 165px;
+    overflow: hidden;
+    border-radius: 27px;
+}
+/* background image and its hover effect in the subsection */
+.BodyBackgroundImage{
+    border-radius: 27px;
+    transition-duration: 1s;
+    
+}
+.BodyBackgroundImage:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* a svg image text in the subsection */
+.v30-text{
+    width: 399px;
+    height: 68px;
+    position: absolute;
+    margin-top: 206px;
+    margin-left: -1276px;
+    cursor: pointer;
+}
+/* a text in the subsection */
+.Delight-text{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    position: absolute;
+    margin-top: -354px;
+    margin-left: 160px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* a text and its hover effect in the subsection */
+.buy-text1{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    position: absolute;
+    margin-top: -247px;
+    margin-left: 160px;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.buy-text1:hover{
+    color: blue;
+}
+/* a icon and its hover effect */
+.oval-arrow1{
+    border:3px solid black;
+    margin-left: 265px;
+    width: 38px;
+    height: 27px;
+    position: absolute;
+    margin-top: -249px;
+    border-radius: 43%;
+}
+.fa-chevron-right{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 8px;
+    font-size: 12px;
+}
+.fa-circle{
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 10px;
+    font-size: 7px;
+    display: none;
+}
+.oval-arrow1:hover{
+    border-color: blue;
+}
+.oval-arrow1:hover .fa-chevron-right{
+    display: none;
+}
+.oval-arrow1:hover .fa-circle{
+    color: blue;
+    display:inline;
+}
+/* the icon and text combined in a division Buy btn1 for the hover effect */
+.Buy-btn1{
+    transition-duration: 1s;
+}
+.Buy-btn1:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+/* section2*/ 
+.section2{
+    width: 111.1%;
+    height: 754px;  
+    background-color: #f4edff; 
+}
+/* section2 subsection */
+.section2-subsection{
+    width: 1440px;
+    height: 640px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 165px;
+    overflow: hidden;
+    border-radius: 27px;
+}
+/* background image and its hover effect in the subsection*/
+.BodyBackgroundImage2{
+    border-radius: 27px;
+    transition-duration: 1s;
+    
+}
+.BodyBackgroundImage2:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* a svg image text in the subsection*/
+.X100-text{
+    width: 327px;
+    height: 68px;
+    position: absolute;
+    margin-top: 206px;
+    margin-left: -1276px;
+    cursor: pointer;
+}
+/* a text in the subsection */
+.Xtreme-text{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    position: absolute;
+    margin-top: -354px;
+    margin-left: 160px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+/* a text and its hover effect in the subsection */
+.buy-text2{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    position: absolute;
+    margin-top: -247px;
+    margin-left: 160px;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+.buy-text2:hover{
+    color: blue;
+}
+/* a icon and its hover effect */
+.oval-arrow2{
+    border:3px solid white;
+    margin-left: 265px;
+    width: 38px;
+    height: 27px;
+    position: absolute;
+    margin-top: -249px;
+    border-radius: 43%;
+}
+#arrow{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: white;
+}
+#dot{
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 10px;
+    font-size: 7px;
+    display: none;
+}
+.oval-arrow2:hover{
+    border-color: blue;
+}
+.oval-arrow2:hover #arrow{
+    display: none;
+}
+.oval-arrow2:hover #dot{
+    color: blue;
+    display:inline;
+}
+/* the icon and text combined in a division Buy btn1 for the hover effect */
+.Buy-btn2{
+    transition-duration: 1s;
+    overlay: hidden;
+}
+.Buy-btn2:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+/* section 3 */
+.section3{
+    width: 111.1%;
+    height: 1226px;  
+    background-color: #f4edff; 
+    position: absolute;
+}
+.section3-heading{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: 500;
+    font-size: 40px;margin-top: 170px;
+    margin-left: 161px;
+}
+/* subsection of the section 3 */
+.section3-subsection{
+    width: 1580px;
+    height: 965px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 100px;
+}
+/* There are five images in the subsection */
+/* image 1 and its hover effect */
+.img1{
+    margin-left: 63px;
+    width: 456px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 27px;
+}
+.sec3-img1{
+    transition-duration: 1s;
+    border-radius: 27px;
+}
+.sec3-img1:hover{
+    transform: scale(1.1);
+}
+/* image 2 and its hover effect */
+.img2{
+    margin-top: -340px;
+    margin-left: 560px;
+    border-radius: 27px;
+    width: 456px;
+    height: 690px;
+    overflow: hidden
+}
+.sec3-img2{
+    transition-duration: 1s;
+    border-radius: 27px;
+}
+.sec3-img2:hover{
+    transform:scale(1.1);
+}
+/* image 3 and its hover effect */
+.img3{
+    margin-left: 1054px;
+    margin-top: -690px;
+    width: 456px;
+    height: 340px;
+    overflow: hidden;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+}
+.sec3-img3{
+    transition-duration: 1s;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+}
+.sec3-img3:hover{
+    transform: scale(1.1);
+}
+/* image 3 have two texts */
+.img3-text{
+    width: 456px;
+    height: 170px;
+    background-color: white;
+    margin-left: 1054px;
+    position: absolute;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+.TWS-text{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    margin-left: 55px;
+    margin-top: 55px;
+    font-size: 18px;
+}
+.LearnMore-text{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    margin-left: 55px;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -20px;
+}
+/* image 4 and its hover effect */
+.img4{
+    margin-left: 63px;
+    margin-top: 45px;
+    width: 456px;
+    height: 280px;
+    overflow: hidden;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+}
+.sec3-img4{
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    transition-duration: 1s;
+}
+.sec3-img4:hover{
+    transform: scale(1.1);
+}
+/* image 4 have two texts */
+.img4-text{
+    width: 456px;
+    height: 170px;
+    background: white;
+    margin-left: 63px;
+    margin-top: 1px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+.T2-text{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    margin-left: 55px;
+    margin-top: 50px;
+    position: absolute;
+    font-size: 18px;
+}
+.get-set-text{
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    margin-left: 55px;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 72px;
+}
+/* image five and its hover effect */
+.img5{
+    margin-left: 1054px;
+    margin-top: -278px;
+    width: 456px;
+    height: 340px;
+    border-radius: 27px;
+    overflow: hidden;
+    position: absolute;
+}
+.sec3-img5{
+    border-radius: 27px;
+    transition-duration: 1s;
+}
+.sec3-img5:hover{
+    transform:scale(1.1);
+}
+/* footer */
+.footer{
+    margin-top: 1228px;
+    background-color: #242933;
+    width: 111.1%;
+    height: 770px
+}
+/* footer has two sections */
+.footer-section1{
+    display: grid;
+}
+/* footer is designed as a box */
+.box{
+    display: flex;
+    flex-direction: row;
+}
+/* the box has five columns*/
+/* column 1 */
+.column1{
+   display:grid;
+   padding-left: 65px;
+   padding-top: 50px;
+   width:155px;
+   padding-bottom: 35px;
+}
+/* column 2 */
+.column2{
+    display: grid;
+    padding-top: 50px;
+    padding-left: 45px;
+    padding-bottom: 120px;
+    width: 155px;
+}
+/* column 3 */
+.column3{
+    display: grid;
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+    width: 160px;
+}
+/* column 4 */
+.column4{
+    display: grid;
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    width: 155px;
+}
+/* column 5 */
+.column5{
+    display: grid;
+    padding-left: 553px;
+    padding-top: 45px;
+    width: 270px;
+}
+/* column 1 heading */
+.column1-heading{
+    color: white;
+    font-size: 18px;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: 600;
+}
+/* column 2 heading */
+.column2-heading{
+    color: white;
+    font-size: 18px;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: 600;
+}
+/* column 3 heading */
+.column3-heading{
+    color: white;
+    font-size: 18px;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: 600;
+}
+/* column 4 heading */
+.column4-heading{
+    color: white;
+    font-size: 18px;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-weight: 600;
+}
+/* column elements link and its hover effects */
+a{
+    color: #8a8f99;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+}
+a:hover{
+    color: blue;
+}
+/* first element in the column 5*/
+#chat{
+    width: 25px;
+}
+#dot1{
+    width: 3px;
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 27px;
+}
+#dot2{
+    width: 3px;
+    position: absolute;
+    margin-left: -9px;
+    margin-top: 27px;
+}
+.chat{
+    display: flex;
+    flex-direction: row;
+}
+.chat-icon{
+    margin-left: -57px;
+}
+.chat-icon-text{
+    margin-left: 11px;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* second element in the column 5 */
+.email-icon{
+    border: 3px solid;
+    width: 26px;
+    height: 19px;
+    margin-left: 11px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.fa-chevron-down{
+    margin-left: 6px;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 3px;
+}
+.email-text{
+    margin-left: 50px;
+    margin-top: -40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* third element in the column 5*/
+.contact1{
+    margin-top: -18px;
+}
+.contact-icon1{
+    margin-left: -92px;
+    margin-top: 20px;
+}
+.contact-text1{
+    margin-left: 52px;
+    margin-top: -45px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-text1:hover{
+    color: #8a8f99;
+}
+.contact-number1{
+    padding-left: 50px;
+    color: white;
+    font-size: 28px;
+    margin-top: -15px;
+}
+/* fourth element in the column 5*/
+.contact2{
+    margin-top: -18px;
+}
+.contact-icon2{
+    margin-left: -92px;
+    margin-top: 20px;
+}
+.contact-text2{
+    margin-left: 52px;
+    margin-top: -45px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-text2:hover{
+    color: #8a8f99;
+}
+.contact-number2{
+    padding-left: 50px;
+    color: white;
+    font-size: 28px;
+    margin-top: -15px;
+}
+/* fifth element in the column 5 */
+.contact3{
+    margin-top: -18px;
+}
+.contact-icon3{
+    margin-left: -92px;
+    margin-top: 20px;
+}
+.contact-text3{
+    margin-left: 52px;
+    margin-top: -45px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-text3:hover{
+    color: #8a8f99;
+}
+.contact-number3{
+    padding-left: 50px;
+    color: white;
+    font-size: 28px;
+    margin-top: -15px;
+}
+/* six element in the column 5 */
+.fa-bookmark{
+    margin-left: 15px;
+    color: #8a8f99;
+}
+.fa-bookmark:hover{
+    color: #8a8f99;
+}
+.fa-plus{
+    font-size: 11px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -15px;
+}
+.follow-text{
+    margin-left: 55px;
+    margin-top: -22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8a8f99;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+}
+/* seventh element in the column 5 */
+/* in this , there are five brands icons and its hover effects */
+.fa-facebook-f{
+    font-size: 20px;
+    margin-left: 11px;
+    margin-top: 4px;
+    position: absolute;
+    color: rgb(36, 41, 51);
+}
+.fa-facebook-f:hover{
+    color: white;
+}
+.fa-square-instagram{
+    font-size: 20px;
+    margin-left: 9px;
+    margin-top: 4px;
+    position: absolute;
+    color: rgb(36, 41, 51);
+}
+.fa-square-instagram:hover{
+    color: white;
+}
+.fa-youtube{
+    margin-left: 7px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 4px;
+    color: rgb(36, 41, 51);
+}
+.fa-youtube:hover{
+    color: white;
+}
+.fa-twitter{
+    margin-left: 9px;
+    position: absolute;
+    margin-top: 6px;
+    font-size: 20px;
+    color: rgb(36, 41, 51);
+}
+.fa-twitter:hover{
+    color: white;
+}
+.fa-linkedin-in{
+    margin-left: 10px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 6px;
+    color: rgb(36, 41, 51);
+}
+.fa-linkedin-in:hover{
+    color: white;
+}
+.facebook-circle{
+    border: 1px solid;
+    width: 37px;
+    height: 30px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -11px;
+    background-color: #8a8f99;
+    border-radius: 45px;
+}
+.facebook-circle:hover{
+    background-color: blue;
+}
+.instagram-circle{
+    border: 1px solid;
+    width: 37px;
+    height: 30px;
+    position: absolute;
+    margin-left: 93px;
+    margin-top: -11px;
+    border-radius: 45px;
+    background-color: #8a8f99;
+}
+.instagram-circle:hover{
+    background-color: blue;
+}
+.youtube-circle{
+    border: 1px solid;
+    width: 37px;
+    height: 30px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -11px;
+    border-radius: 45px;
+    background-color: #8a8f99;
+}
+.youtube-circle:hover{
+    background-color: blue;
+}
+.twitter-circle{
+    border: 1px solid;
+    width: 37px;
+    height: 30px;
+    position: absolute;
+    margin-left:185px;
+    margin-top: -11px;
+    border-radius: 45px;
+    background-color: #8a8f99;
+}
+.twitter-circle:hover{
+    background-color: blue;
+}
+.linkedin-circle{
+    border: 1px solid;
+    width: 37px;
+    height: 30px;
+    position: absolute;
+    margin-left:232px;
+    margin-top: -11px;
+    border-radius: 45px;
+    background-color: #8a8f99;
+}
+.linkedin-circle:hover{
+    background-color: blue;
+}
+/* underline between footer section 1 and section 2 */
+.underline{
+    color: #636a77;
+    margin-top: 106px;
+    margin-left: 61px;
+    margin-right: 104px;
+    border: 1px solid;
+}
+/* footer section 2 */
+/* In this there are two texts */
+/* text 1 in this section*/
+.footer-section2-text1{
+    color: #8a8f99;
+    margin-left: 61px;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-size: 15px;
+    margin-top: 51px;
+}
+/* text 2 and a icon in this section */
+.footer-section2-text2{
+    color: #8a8f99;
+    margin-left: 1420px;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, sans-serif, "WebRupee";
+    font-size: 15px;
+    margin-top: -36px;
+}
+.fa-globe{
+    margin-top: -6px;
+    margin-left: 6px;
+    font-size:25px;
+}
