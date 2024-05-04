@@ -812,6 +812,7 @@ a:hover{
 .fa-bookmark{
     margin-left: 15px;
     color: #8a8f99;
+    margin-top: 1px;
 }
 .fa-bookmark:hover{
     color: #8a8f99;
